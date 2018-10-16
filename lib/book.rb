@@ -5,13 +5,13 @@ class Book
 
   def initialize(genre)
     @genre = genre
-    GENRES << self
+    GENRES << self.genre
   end
 
   def genre=(genre)
     @genre = genre
   end
-  
+
   def genre
     @genre
   end
