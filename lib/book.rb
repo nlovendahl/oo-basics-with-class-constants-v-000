@@ -1,9 +1,11 @@
 class Book
 
-  attr_reader :genre
-
   def initialize(genre)
     @genre = genre
+  end
+
+  def genre
+    @genre
   end
 
 end
