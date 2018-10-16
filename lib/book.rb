@@ -5,6 +5,7 @@ class Book
 
   def initialize(genre)
     @genre = genre
+    GENRES << self
   end
 
   def genre
