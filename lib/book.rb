@@ -1,10 +1,10 @@
 class Book
 
-  attr_reader :genre
+  attr_reader :genre, :title
   GENRES = []
 
-  def initialize(genre)
-    @genre = genre
+  def initialize(title)
+    @title = title
     GENRES << self.genre
   end
 
