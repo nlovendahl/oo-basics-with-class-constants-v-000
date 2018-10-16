@@ -7,7 +7,11 @@ class Shoe
   def initialize(brand)
     @brand = brand
     if !BRANDS.include?(brand)
+<<<<<<< HEAD
       BRANDS << brand
+=======
+    BRANDS << brand
+>>>>>>> 7c0d865cf3e803d13e60340ab5a7c44368bd7fa7
     end
   end
 
